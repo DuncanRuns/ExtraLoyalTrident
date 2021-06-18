@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "extraloyaltrident",
+  "version": "${version}",
+  "name": "Extra Loyal Trident",
+  "description": "Tridents with loyalty cannot be lost to the void.",
+  "authors": [
+    "DuncanRuns"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/extraloyaltrident/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.duncanruns.extraloyaltrident.ExtraLoyalTrident"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "extraloyaltrident.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "me.duncanruns.extraloyaltrident.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "TridentEntityMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
